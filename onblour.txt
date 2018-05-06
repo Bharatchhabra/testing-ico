@@ -1,0 +1,6 @@
+/**************************************  ONBLOUR********************************************************/
+
+<textarea name="message" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"> Put anything for default value here </textarea>?
+ 
+
+<input type="text" id="s" name="s" onblur="if (this.value == '') {this.value = 'City';}" onfocus="if (this.value == 'City') {this.value = '';}" value="City"/>
